@@ -29,7 +29,7 @@ function ExternalUsers() {
 
 function User(props) {
   return (
-    <div>
+    <div style={{ backgroundColor: 'brown', color: 'yellowgreen', border: '1px solid purple', borderRadius: '20px', padding: '20px', margin: '20px' }}>
       <h2>User Name: {props.name}</h2>
       <h4>User Email: {props.email}</h4>
       <h4>User Website: {props.website}</h4>
